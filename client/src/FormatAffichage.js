@@ -20,8 +20,6 @@ const FormatAffichage = ({afficher, affichageCompletes, setAffichageCompletes}) 
     })((props) => <Radio color="default" {...props} />);
 
 
-
-
     const handleChange = (event) => {
         setAffichageCompletes(event.target.value);
         afficher();
